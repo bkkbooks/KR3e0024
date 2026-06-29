@@ -1,0 +1,98 @@
+canonical_identifier: bkk:krp/KR3e0024/v1
+canonical_location: https://kanripo.org/bkk/KR3e0024/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 素問入式運氣論奧
+  date: '2015-08-24 23:04:46.036022'
+  source:
+    repository: kanripo
+    path: KR3e0024
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3e0024_000.yaml, hash: 'sha256:f42b7c329cdb9c8553160532cddfd2dca2b105ce74f70848ce5d7902f19ba690'}
+  - {seq: 1, filename: KR3e0024_001.yaml, hash: 'sha256:6bb948cf5b9d4c5b9deae536635ee82a085935c373ef1f9fbca9c924719e9a92'}
+  - {seq: 2, filename: KR3e0024_002.yaml, hash: 'sha256:9f3dd251f3e5d61ae7314c6cfc97efcdcb77293a796a7c9555e3b4012582df6d'}
+  - {seq: 3, filename: KR3e0024_003.yaml, hash: 'sha256:e0bbee2d9d894abe3c226b31cbba8d69c0c327c04e3c882b2e1228c5d23877be'}
+  - {seq: 4, filename: KR3e0024_004.yaml, hash: 'sha256:14f13bbb6822267fc9678b71b7f28832afa33f615167b351b9b14060df9a7953'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3e0024_000.markers.yaml, hash: 'sha256:f2a21f65c9fa0eb9567ba0fcebd8eed2ff88b2ec87dda630f5d32b7c979f4e41'}
+  - {seq: 1, role: markers, filename: assets/KR3e0024_001.markers.yaml, hash: 'sha256:01abba84704ffc478624a06f09c18f040cad6bdbaa34f7d6e3b15645e52c1b46'}
+  - {seq: 2, role: markers, filename: assets/KR3e0024_002.markers.yaml, hash: 'sha256:9c86283217dd755fff40cfbff69c8692a767a4f7dd848a9e622d2f7faed5d518'}
+  - {seq: 3, role: markers, filename: assets/KR3e0024_003.markers.yaml, hash: 'sha256:869ef733b5379f206c52739718faf4b5fe1ee75274367ef23019979ef61c27e2'}
+  - {seq: 4, role: markers, filename: assets/KR3e0024_004.markers.yaml, hash: 'sha256:e167c748836fea25cecbd45a678a7de3d018ea577ca7cdb4b217f38142c2e6ec'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3e0024_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 308
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3e0024_WYG_000-3a
+    span:
+    - body
+    - 308
+    - 543
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3e0024_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 5789
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3e0024_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 3568
+  label: 卷中
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3e0024_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 8727
+  label: 卷下
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR3e0024_WYG_004-1a
+    span:
+    - body
+    - 0
+    - 18823
+  label: 黄帝内經素問遺篇
+  type: section
+  level: 1
+hash: sha256:d00ec3db164ad0261cb38e560638a591424a0c67c921376593fce23abccf7b68
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
